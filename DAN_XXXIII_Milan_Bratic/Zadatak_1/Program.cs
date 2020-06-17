@@ -69,7 +69,6 @@ namespace Zadatak_1
         /// </summary>
         private static void Sum()
         {
-            Thread.Sleep(1000);
             //read all lines from the file in array
             string[] lines = File.ReadAllLines(path2);
             int sum = 0;
